@@ -557,11 +557,6 @@ document.addEventListener('keydown', e => { if(e.key==='Escape') closeModal(); }
     </div>
     <button class="auth-submit" type="submit">เข้าสู่ระบบ</button>
     <div class="auth-error" id="loginError"></div>
-    <div class="auth-demo">
-      บัญชีเริ่มต้น: admin/pcu05374ky เห็นทั้งหมดและนำเข้าได้<br>
-      staff/staff123 เห็น dashboard และทะเบียนรายชื่อ<br>
-      user/user123 เห็นเฉพาะ dashboard
-    </div>
   </form>
 </div>
 
@@ -982,7 +977,7 @@ const RAW_POPULATION = [{"ชื่อ":"สงกรานต์ ศรีส�
 // ===== AUTH / ROLE ACCESS =====
 const AUTH_USERS = [
   {username:'admin', password:'pcu05374ky', role:'admin', name:'ผู้ดูแลระบบ'},
-  {username:'staff', password:'staff123', role:'staff', name:'เจ้าหน้าที่ รพ.สต.'},
+  {username:'pcu05374', password:'043840180', role:'staff', name:'เจ้าหน้าที่ รพ.สต.'},
   {username:'user', password:'user123', role:'user', name:'ผู้ใช้ทั่วไป'}
 ];
 const ROLE_LABELS = {admin:'Admin', staff:'เจ้าหน้าที่ รพ.สต.', user:'User'};
